@@ -7,7 +7,7 @@ To run this app, open the project folder and run 'npm start' (note, you may need
 
 Additionally, I have added a Select All/Deselect All button that only displays when 'multiSelect' is enabled.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
