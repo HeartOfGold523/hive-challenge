@@ -1,3 +1,12 @@
+To run this app, open the project folder and run 'npm start' (note, you may need to run 'npm install' to install core React dependencies in your project directory). The Dropdown component receives props 'items' (which determines what options are displayed in the dropdown) as well as 'multiSelect' (which allows the user to select multiple options in the dropdown menu). By default, I have allowed 'multiSelect', but if you want to check single select functionality, simply remove the attribute 'multiSelect' in App.js line 51. This component supports the following required functionality:
+
+- Multiselect and single select
+- Display of selected values
+- Deselect value on click
+- Open/Closed states
+
+Additionally, I have added a Select All/Deselect All button that only displays when 'multiSelect' is enabled.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
