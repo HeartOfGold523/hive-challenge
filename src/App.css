@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 20px;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+}
+.dd-wrapper {
+    display: flex;
+    min-height: 38px;
+    flex-wrap: wrap;
+}
+.dd-header {
+    background-color: #424b54;
+    border: 1px solid #424b54;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    color: #d9e5d6;
+    font-family: 'Roboto', sans-serif;
+}
+.dd-header_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dd-header_title-text {
+    padding: 0 20px;
+}
+.dd-header_action {
+    color: #fc9f5b;
+    padding: 0 20px;
+}
+.dd-list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+li {
+    list-style-type: none;
+}
+li:hover, li:focus {
+    cursor: pointer;
+}
+li:first-of-type > button {
+    border-top: 1px solid #d9e5d6;
+}
+li:last-of-type > button {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px!important;
+    border-bottom: 1px solid #d9e5d6;
+    outline: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px;
+    background-color: #424b54;
+    color: #d9e5d6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.5s;
+}
+button:focus, button:hover {
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(250, 163, 129, 0.5);
+}
+button:active {
+    background-color: rgba(56, 134, 89, 0.5);
+}
+.check {
+    color: #b2abf2;
+    line-height: 1;
+}
+div:focus, p:focus, span:focus, li:focus, button:focus {
+    outline: 0;
+}
